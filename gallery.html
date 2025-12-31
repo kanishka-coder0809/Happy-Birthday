@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Birthday Greeting</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="gallery.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="logo">🎂 Birthday Wishes</a>
+      <ul class="nav-links">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="wishes.html" class="nav-link">Wishes</a></li>
+        <li><a href="gallery.html" class="nav-link active">Gallery</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  
+  <!-- FLIP CARD -->
+  <div class="flip-wrapper">
+    <input type="checkbox" id="flip-card">
+
+    <label for="flip-card" class="flip-card">
+      <div class="flip-inner">
+
+        <!-- FRONT -->
+        <div class="flip-front">
+          <span class="emoji">🎂</span>
+          <h2>Happy Birthday</h2>
+          <p>Click to open</p>
+        </div>
+
+        <!-- BACK -->
+        <div class="flip-back">
+          <h1>Warm Birthday Wishes</h1>
+          <p>
+            On this special day, we thank you for your wisdom and dedication.
+            <br><br>
+            Your leadership inspires young minds and bright futures.
+            <br><br>
+            Wishing you good health, happiness, and continued success.
+          </p>
+          <span class="from">— With deepest respect, your students 💐</span>
+          <span class="close-text">Click to close</span>
+        </div>
+
+      </div>
+    </label>
+  </div>
+
+</body>
+</html>
